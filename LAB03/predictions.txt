@@ -1,0 +1,3 @@
+Task 1. With zero exploration the toy agent can learn. The all-zero table is optimistic for actions that earn negative rewards, and updating one such action can make an untried action greedy. Slip can also produce visits that a deterministic transition would not.
+
+Task 4. Before running, I predict the 4x mass case will hurt more than the tightest motor limit. It leaves one quarter of the nominal peak acceleration in both channels and attenuates small corrective commands as well. The 0.3 limit preserves those small commands and allows three tenths of nominal peak acceleration. Both should delay the turns that line the robot up with the gap.
